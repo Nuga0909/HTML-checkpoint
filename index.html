@@ -6,21 +6,22 @@
     <title>Portfolio webpage</title>
   </head>
   <body>
-    <header>
+    <header id="top">
       <a href="index.html">
         <h3>Shyn Portfolio</h3>
       </a>
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="#about-section">About</a> </li>
-          <li>Work</li>
-          <li>Resume</li>
-          <li>Contact</li>
+          <li><a href="#about-section">About</a></li>
+          <li><a href="#work-section">Work</a></li>
+          <li><a href="#resume-section">Resume</a></li>
+          <li><a href="#contact-section">Contact</a></li>
         </ul>
       </nav>
     </header>
-    <section  id="about-section">
+    <section id="about-section">
+      <hr />
       <h1>I am Adeshina</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nisi et
@@ -28,7 +29,81 @@
         repudiandae. Facere, quaerat sapiente. Quisquam voluptatum architecto
         sit officiis molestiae!
       </p>
-      <img src="images\IMG_20210503_090847.gif" alt="my picture" width="400" height="500">
+      <img
+        src="images\IMG_20210503_090847.gif"
+        alt="my picture"
+        width="400"
+        height="500"
+      />
+      <hr />
+    </section>
+    <section id="work-section">
+      <hr />
+      <h2>Here are samples of my work</h2>
+      <div>
+        <img src="images\98366229.jpg" alt="past work" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas commodi
+          voluptatum repudiandae et non laborum pariatur aut magni ducimus ab?
+          Tempore, explicabo modi. Architecto sed saepe dolor quo commodi
+          dolores.
+        </p>
+      </div>
+      <div>
+        <img src="images\98366229.jpg" alt="past work" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas commodi
+          voluptatum repudiandae et non laborum pariatur aut magni ducimus ab?
+          Tempore, explicabo modi. Architecto sed saepe dolor quo commodi
+          dolores.
+        </p>
+      </div>
+      <div>
+        <img src="images\98366229.jpg" alt="past work" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas commodi
+          voluptatum repudiandae et non laborum pariatur aut magni ducimus ab?
+          Tempore, explicabo modi. Architecto sed saepe dolor quo commodi
+          dolores.
+        </p>
+      </div>
+      <p><a href="#top">Back to top</a></p>
+      <hr />
+    </section>
+    <section id="resume-section">
+      <hr />
+      <h3>Do you want to checkout my resume?</h3>
+      <h2>click <a href="#">Here</a></h2>
+      <video width="320" height="240" controls>
+        <source src="images\video3135022458.mp4" type="video/mp4" />
+        Please Check the video my introduction.
+      </video>
+      <p><a href="#top">Back to top</a></p>
+      <hr />
+    </section>
+    <section id="contact-section">
+      <hr />
+      <h2>
+        I'd like to know you some more,<br />Kindly fill in your details below:
+      </h2>
+      <form action="">
+        <label>Name:</label>
+        <input
+          type="text"
+          name="first name"
+          placeholder="Type your name here"
+        />
+        <br />
+
+        <label>Phone number:</label>
+        <input type="number" name="number" placeholder="+234-8055555555" />
+        <br />
+
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="xyz@gmail.com" />
+      </form>
+      <p><a href="#top">Back to top</a></p>
+      <hr />
     </section>
   </body>
 </html>
