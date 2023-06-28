@@ -1,0 +1,76 @@
+$primary_1: aqua;
+$primary_2: #f75f07;
+
+* {
+  margin: 0px;
+  font-family: "Roboto";
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  background-color: $primary_1;
+  width: -webkit-fill-available;
+  padding: 20px;
+}
+
+header h3 {
+  font-size: x-large;
+  letter-spacing: 5px;
+}
+
+nav {
+  width: 50%;
+}
+
+.nav-el {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+#about-section {
+  padding: 40px;
+  padding-top: 70px;
+  display: flex;
+}
+
+#about-div {
+  padding: 30px;
+  padding-top: 130px;
+}
+
+#my-pic {
+  width: 30%;
+  height: auto;
+}
+
+#name {
+  color: $primary_2;
+  font-size: 40px;
+}
+
+#p-name {
+  font-size: 20px;
+  font-family: monospace;
+}
+
+#works {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.work-card {
+  width: 25%;
+  margin: 30px;
+  padding: 10px;
+}
+
+.work-card img {
+  width: 80%;
+}

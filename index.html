@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Portfolio webpage</title>
   </head>
   <body>
@@ -11,7 +16,7 @@
         <h3>Shyn Portfolio</h3>
       </a>
       <nav>
-        <ul>
+        <ul class="nav-el">
           <li><a href="index.html">Home</a></li>
           <li><a href="#about-section">About</a></li>
           <li><a href="#work-section">Work</a></li>
@@ -21,52 +26,70 @@
       </nav>
     </header>
     <section id="about-section">
-      <hr />
-      <h1>Hi, I am Adeshina</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nisi et
-        numquam laborum debitis sunt, quae eligendi amet laboriosam fugit
-        repudiandae. Facere, quaerat sapiente. Quisquam voluptatum architecto
-        sit officiis molestiae!
-      </p>
-      <img
-        src="images\IMG_20210503_090847.gif"
-        alt="my picture"
-        width="400"
-        height="500"
-      />
-      <hr />
+      <div id="about-div">
+        <h1 id="name">Hi, I am Adeshina</h1>
+        <p id="p-name">
+          I am a software engineer who is passionate about solving real-life
+          problems using relevant technology.
+        </p>
+      </div>
+      <img id="my-pic" src="images\IMG_20210503_090847.gif" alt="my picture" />
     </section>
     <section id="work-section">
       <hr />
       <h2>Here are samples of my work</h2>
-      <div>
-        <img src="images\98366229.jpg" alt="past work" />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas commodi
-          voluptatum repudiandae et non laborum pariatur aut magni ducimus ab?
-          Tempore, explicabo modi. Architecto sed saepe dolor quo commodi
-          dolores.
-        </p>
+      <div id="works">
+        <div class="work-card">
+          <img src="images\98366229.jpg" alt="past work" />
+          <div>
+            <h3>Project title</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+              commodi voluptatum repudiandae et non laborum pariatur aut magni
+              ducimus ab? Tempore, explicabo modi. Architecto sed saepe dolor
+              quo commodi dolores.
+            </p>
+          </div>
+        </div>
+        <div class="work-card">
+          <img src="images\98366229.jpg" alt="past work" />
+          <div>
+            <h3>Project title</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+              commodi voluptatum repudiandae et non laborum pariatur aut magni
+              ducimus ab? Tempore, explicabo modi. Architecto sed saepe dolor
+              quo commodi dolores.
+            </p>
+          </div>
+        </div>
+        <div class="work-card">
+          <img src="images\98366229.jpg" alt="past work" />
+          <div>
+            <h3>Project title</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+              commodi voluptatum repudiandae et non laborum pariatur aut magni
+              ducimus ab? Tempore, explicabo modi. Architecto sed saepe dolor
+              quo commodi dolores.
+            </p>
+          </div>
+        </div>
       </div>
-      <div>
+      <div class="work-card">
         <img src="images\98366229.jpg" alt="past work" />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas commodi
-          voluptatum repudiandae et non laborum pariatur aut magni ducimus ab?
-          Tempore, explicabo modi. Architecto sed saepe dolor quo commodi
-          dolores.
-        </p>
+        <div>
+          <h3>Project title</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+            commodi voluptatum repudiandae et non laborum pariatur aut magni
+            ducimus ab? Tempore, explicabo modi. Architecto sed saepe dolor
+            quo commodi dolores.
+          </p>
+        </div>
       </div>
-      <div>
-        <img src="images\98366229.jpg" alt="past work" />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas commodi
-          voluptatum repudiandae et non laborum pariatur aut magni ducimus ab?
-          Tempore, explicabo modi. Architecto sed saepe dolor quo commodi
-          dolores.
-        </p>
-      </div>
+    </div>
+
       <p><a href="#top">Back to top</a></p>
       <hr />
     </section>
