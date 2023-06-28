@@ -3,10 +3,6 @@
   font-family: "Roboto";
 }
 
-a {
-  text-decoration: none;
-}
-
 header {
   display: flex;
   justify-content: space-between;
@@ -15,17 +11,17 @@ header {
   width: -webkit-fill-available;
   padding: 20px;
 }
-
+header a {
+  text-decoration: none;
+}
 header h3 {
   font-size: x-large;
   letter-spacing: 5px;
 }
-
-nav {
+header nav {
   width: 50%;
 }
-
-.nav-el {
+header .nav-el {
   display: flex;
   list-style: none;
   justify-content: space-around;

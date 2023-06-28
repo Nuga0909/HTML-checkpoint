@@ -6,10 +6,6 @@ $primary_2: #f75f07;
   font-family: "Roboto";
 }
 
-a {
-  text-decoration: none;
-}
-
 header {
   display: flex;
   justify-content: space-between;
@@ -17,21 +13,21 @@ header {
   background-color: $primary_1;
   width: -webkit-fill-available;
   padding: 20px;
-}
-
-header h3 {
-  font-size: x-large;
-  letter-spacing: 5px;
-}
-
-nav {
-  width: 50%;
-}
-
-.nav-el {
-  display: flex;
-  list-style: none;
-  justify-content: space-around;
+  a {
+    text-decoration: none;
+  }
+  h3 {
+    font-size: x-large;
+    letter-spacing: 5px;
+  }
+  nav {
+    width: 50%;
+  }
+  .nav-el {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+  }
 }
 
 #about-section {
