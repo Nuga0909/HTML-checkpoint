@@ -32,23 +32,19 @@ header .nav-el {
   padding-top: 70px;
   display: flex;
 }
-
-#about-div {
+#about-section #about-div {
   padding: 30px;
   padding-top: 130px;
 }
-
-#my-pic {
+#about-section #my-pic {
   width: 30%;
   height: auto;
 }
-
-#name {
+#about-section #name {
   color: #f75f07;
   font-size: 40px;
 }
-
-#p-name {
+#about-section #p-name {
   font-size: 20px;
   font-family: monospace;
 }
@@ -56,23 +52,19 @@ header .nav-el {
 #work-section {
   padding: 20px;
 }
-
-#work-head {
+#work-section #work-head {
   padding: 40px;
 }
-
-#works {
+#work-section #works {
   display: flex;
   flex-wrap: wrap;
 }
-
-.work-card {
+#work-section .work-card {
   width: 25%;
   margin: 30px;
   padding: 10px;
 }
-
-.work-card img {
+#work-section .work-card img {
   width: 80%;
 }
 
