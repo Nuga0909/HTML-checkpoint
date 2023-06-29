@@ -7,7 +7,7 @@ header {
   display: flex;
   justify-content: space-between;
   position: fixed;
-  background-color: rgb(9, 129, 129);
+  background-color: rgb(14, 216, 216);
   width: -webkit-fill-available;
   padding: 20px;
 }
