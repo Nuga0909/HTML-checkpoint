@@ -74,4 +74,13 @@ header .nav-el {
 
 .work-card img {
   width: 80%;
+}
+
+#resume-section {
+  padding: 40px;
+  padding-left: 60px;
+}
+#resume-section h3 {
+  font-size: xx-large;
+  padding-bottom: 20px;
 }/*# sourceMappingURL=styles.css.map */
