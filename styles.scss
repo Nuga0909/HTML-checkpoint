@@ -1,5 +1,6 @@
-$primary_1: aqua;
+$primary_1: rgba(39, 223, 223, 0.788);
 $primary_2: #f75f07;
+$primary_3: rgba(189, 114, 70, 0.774);
 
 * {
   margin: 0px;
@@ -85,5 +86,42 @@ header {
   h3 {
     font-size: xx-large;
     padding-bottom: 20px;
+  }
+}
+
+#contact-section {
+  padding: 40px;
+  padding-bottom: 0px;
+  hr {
+    margin-bottom: 40px;
+  }
+  form {
+    padding: 50px 0px;
+    width: 50%;
+  }
+  input,
+  label {
+    width: -webkit-fill-available;
+    margin: 20px;
+    margin-left: 60px;
+  }
+  p {
+    padding-left: 40px;
+    padding-bottom: 10px;
+  }
+  #hr-2 {
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+footer {
+  padding: 0px 40px;
+  background-color: $primary_3;
+  #p-1 {
+    font-size: larger;
+  }
+  p {
+    font-size: x-small;
   }
 }

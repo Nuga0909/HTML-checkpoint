@@ -7,7 +7,7 @@ header {
   display: flex;
   justify-content: space-between;
   position: fixed;
-  background-color: aqua;
+  background-color: rgba(39, 223, 223, 0.788);
   width: -webkit-fill-available;
   padding: 20px;
 }
@@ -83,4 +83,41 @@ header .nav-el {
 #resume-section h3 {
   font-size: xx-large;
   padding-bottom: 20px;
+}
+
+#contact-section {
+  padding: 40px;
+  padding-bottom: 0px;
+}
+#contact-section hr {
+  margin-bottom: 40px;
+}
+#contact-section form {
+  padding: 50px 0px;
+  width: 50%;
+}
+#contact-section input,
+#contact-section label {
+  width: -webkit-fill-available;
+  margin: 20px;
+  margin-left: 60px;
+}
+#contact-section p {
+  padding-left: 40px;
+  padding-bottom: 10px;
+}
+#contact-section #hr-2 {
+  margin: 0px;
+  padding: 0px;
+}
+
+footer {
+  padding: 0px 40px;
+  background-color: rgba(189, 114, 70, 0.774);
+}
+footer #p-1 {
+  font-size: larger;
+}
+footer p {
+  font-size: x-small;
 }/*# sourceMappingURL=styles.css.map */
